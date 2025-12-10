@@ -1,0 +1,13 @@
+# 添加到你的 .gitignore 文件中
+
+# SSL证书文件（不要提交到版本控制）
+ssl/
+*.pem
+*.crt
+*.key
+
+# Nginx日志
+logs/
+
+# Docker volumes
+docker-volumes/
